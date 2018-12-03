@@ -17,6 +17,12 @@ void GameObject::Update(sf::Time _frameTime)
 
 }
 
+void GameObject::Input(sf::Event _gameEvent)
+{
+
+}
+
+
 sf::FloatRect GameObject::GetBounds()
 {
 	return sf::FloatRect();

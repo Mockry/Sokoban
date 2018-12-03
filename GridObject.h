@@ -21,7 +21,9 @@ public:
 	
 	void SetLevel(Level* _newLevel);
 
-private :
+	sf::Vector2i GetGridPosition();
+
+protected :
 
 	sf::Vector2i m_gridPosition;
 	Level* m_level;

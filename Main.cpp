@@ -49,7 +49,7 @@ int main()
 		while (gameWindow.pollEvent(gameEvent))
 		{
 			// TODO: Pass event to input objects
-
+			ourLevel.Input(gameEvent);
 
 			// Did the player try to close the window?
 			if (gameEvent.type == sf::Event::Closed)
